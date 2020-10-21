@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+
+main {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+p {
+  margin: 0;
+}
+
+.menu {
+  margin: 0;
+  padding: 10px 20px;
+  list-style: none;
+  background-color: #333;
+}
+
+.menu__item {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.menu__item:first-child {
+  margin-left: 0;
+}
+
+.menu__item:hover {
+  background-color: #fff;
+}
+
+.menu__item a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu__item:hover a {
+  color: #333;
+}
